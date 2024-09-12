@@ -1,0 +1,38 @@
+#EasyMail配置文件
+#Design By MossCG
+
+#前言
+#当你确认配置没问题后，请将以下选项修改为true后再启动喵
+enable: true
+
+#----------------------------------
+#Http请求模块信息
+
+#请求密钥
+token: "1234567890"
+#Http服务器端口
+httpPort: 9999
+
+#----------------------------------
+#QQ模块信息
+
+#QQ账号信息
+botNumber: "12345678"
+botPassword: "12345678"
+#QQ文件存储位置
+botFile: "./EasyQQ/Bot"
+#是否开启日志功能
+botLog: false
+botNetworkLog: false
+#开启的群
+botGroups: "980879698"
+#机器人登录方式（1-password、2-qrcode）
+botLoginType: 2
+#机器人心跳策略（1-STAT_HB、2-REGISTER、3-NONE）
+botHeartbeat: 1
+#机器人登陆协议（1-ANDROID_PHONE、2-ANDROID_PAD、3-ANDROID_WATCH、4-IPAD、5-MACOS）
+botProtocol: 3
+
+#----------------------------------
+#是否显示调试信息
+debug: true
